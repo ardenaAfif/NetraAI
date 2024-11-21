@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/menu_home"
-        android:icon="@drawable/ic_voice_recog"
+        android:icon="@drawable/voice_recog"
         android:title="Beranda"
         app:showAsAction="ifRoom"/>
 

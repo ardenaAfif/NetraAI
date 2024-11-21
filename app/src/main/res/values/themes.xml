@@ -4,9 +4,13 @@
         <!-- Customize your light theme here. -->
          <item name="colorPrimary">@color/blue_600</item>
          <item name="colorOnPrimary">@color/blue_200</item>
+
+        <!-- Default Splash Screen Removed & Orientation Vertical-->
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <style name="Theme.NetraAI" parent="Base.Theme.NetraAI" />
+
 
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/blue_200</item>

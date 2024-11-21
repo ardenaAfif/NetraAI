@@ -7,4 +7,7 @@
     <string name="contact_via_gmail">Hubungi melalui Gmail</string>
     <string name="contact_via_ig">Hubungi melalui Instagram</string>
     <string name="contact_via_wa">Hubungi melalui Whatsapp</string>
+    <string name="doc_to_voice">Ubah Materi ke Suara</string>
+    <string name="voice_recognition">Belajar Interaktif dengan AI</string>
+    <string name="latihan_soal">Latihan Soal</string>
 </resources>
