@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NetraAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue_600</item>
+         <item name="colorOnPrimary">@color/blue_200</item>
+    </style>
+
+    <style name="Theme.NetraAI" parent="Base.Theme.NetraAI" />
+</resources>
