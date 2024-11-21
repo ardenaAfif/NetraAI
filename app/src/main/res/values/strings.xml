@@ -10,4 +10,7 @@
     <string name="doc_to_voice">Ubah Materi ke Suara</string>
     <string name="voice_recognition">Belajar Interaktif dengan AI</string>
     <string name="latihan_soal">Latihan Soal</string>
+    <string name="ubah_materi">Ubah Materi Teks dan \nGambar Menjadi Audio</string>
+    <string name="choose_file">Pilih file PDF atau Gambar</string>
+    <string name="text_drag_drop"><![CDATA[Drag and drop file here \nMax 200MB per file • PDF, JPG, JPEG, PNG]]></string>
 </resources>
