@@ -2,4 +2,9 @@
     <string name="app_name">Netra AI</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="about_desc">Selamat datang di NETRA AI! NETRA AI adalah aplikasi pembelajaran inovatif yang dirancang khusus untuk mendukung teman-teman tunanetra dalam mengakses dan mempelajari berbagai informasi dari berbagai sumber dengan lebih mudah. Dengan dukungan teknologi kecerdasan buatan (AI), NETRA AI menghadirkan sejumlah fitur yang akan membantu Anda belajar dengan cara yang lebih interaktif dan inklusif.</string>
+    <string name="contact_via_gmail">Hubungi melalui Gmail</string>
+    <string name="contact_via_ig">Hubungi melalui Instagram</string>
+    <string name="contact_via_wa">Hubungi melalui Whatsapp</string>
 </resources>
