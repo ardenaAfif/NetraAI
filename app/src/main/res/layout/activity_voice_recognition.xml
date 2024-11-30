@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/blue_200"
+    tools:context=".ui.voicerecognition.VoiceRecognitionActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar_layout"
+            layout="@layout/custom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_layout"
+            app:srcCompat="@drawable/voice_recog" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_with_ai"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/green_border" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="203dp"
+                    android:layout_height="216dp"
+                    app:srcCompat="@drawable/ic_mic" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:background="@color/blue_200"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            tools:ignore="MissingConstraints">
+
+            <SeekBar
+                android:id="@+id/audioSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="80"
+                android:progressTint="@color/blue_600"
+                android:thumbTint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/audioTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-22:27"
+                android:textColor="@color/grey_500"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/green_border" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/transkripsi"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_600"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp" />
+
+                    <TextView
+                        android:id="@+id/tv_result_convert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/result_convert"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

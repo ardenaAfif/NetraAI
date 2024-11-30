@@ -14,4 +14,9 @@
     <string name="choose_file">Pilih file PDF atau Gambar</string>
     <string name="text_drag_drop">Max 200MB per file • PDF, JPG, JPEG, PNG</string>
     <string name="find_file">Cari File</string>
+    <string name="learn_with_ai">Belajar Interaktif dengan AI</string>
+    <string name="result_convert">Selamat datang di NETRA AI! NETRA AI adalah aplikasi pembelajaran inovatif yang dirancang khusus untuk mendukung teman-teman tunanetra dalam mengakses dan mempelajari berbagai informasi dari berbagai sumber dengan lebih mudah. Dengan dukungan teknologi kecerdasan buatan (AI), NETRA AI menghadirkan sejumlah fitur yang akan membantu Anda belajar dengan cara yang lebih interaktif dan inklusif.
+Dengan NETRA AI, kami berkomitmen untuk menyediakan sarana belajar yang lebih ramah dan mendukung kemandirian Anda dalam mengakses informasi. Terima kasih telah menggunakan NETRA AI sebagai teman belajar Anda.</string>
+    <string name="transkripsi"><u>TRANSKRIPSI:</u></string>
+
 </resources>

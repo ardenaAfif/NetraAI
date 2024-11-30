@@ -13,6 +13,9 @@
         android:theme="@style/Theme.NetraAI"
         tools:targetApi="31">
         <activity
+            android:name=".ui.voicerecognition.VoiceRecognitionActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.convertvoice.ConvertVoiceActivity"
             android:exported="false" />
         <activity
